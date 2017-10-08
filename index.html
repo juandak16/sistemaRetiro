@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sistema de retiro de asignaturas</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/anime.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<section id="principal">
+		<div class="fondo"></div>
+		<div class="overlay"></div>
+		<div class="banda"></div>
+		<div class="contenedor">
+			<div class="cabecera"> 
+				<a  href="http://www.unet.edu.ve/">
+				<div class="logo">
+					
+					
+				</div>
+				</a>
+				<h1 class="titulo1">universidad nacional <br> experimental del tachira</h1>
+			</div>
+			<div class="titulo2">
+				<h1> 
+				Sistema para el retiro <br> de asignaturas
+				</h1>
+			</div>
+			<div class="bajar ">
+				<span class="glyphicon glyphicon-chevron-down " aria-hidden="true">^</span>
+			</div>
+		</div>		
+	</section>
+	<section id="formulario">
+		<div class="contenedor2">
+			<h2 class="titulo3">Formulario</h2>
+			<h2 class="titulo1">Datos Personales</h2>
+			<div class="contenedorIzq textblue">
+				<label >Nombre</label>
+            	<input type="texto" name="nombre" placeholder="">
+            	<label>Cedula</label>
+            	<input type="digito" name="cedula" placeholder="">
+            	<label>Número de Semestre</label>
+            	<input type="digito" name="semestre" placeholder="">
+			</div>
+			<div class="contenedorDer textblue">
+				<label>Apellido</label>
+            	<input type="texto" name="apellido" placeholder="">
+            	<label>Carrera</label>
+            	<input type="texto" name="carrera" placeholder="">
+			</div>
+			<div class="barra"></div>
+			<h2 class="titulo1">Datos de la Asignatura</h2>
+			<div class="contenedorIzq textblue">
+				<label>Nombre de la Asignatura</label>
+            	<input type="texto" name="nombreAsignatura" placeholder="">
+            	<label>Unidades de Crédito</label>
+            	<input type="digito" name="unidades" placeholder="">
+            	<label>Motivo</label>
+            	<textarea type=message > </textarea>
+			</div>
+			<div class="contenedorDer textblue">
+				<label>Código de la Asignatura</label>
+            	<input type="texto" name="codigo" placeholder="">
+            	<label>Carrera</label>
+            	<input type="digito" name="firstname" placeholder="">
+            	<input type="submit" value="Procesar Retiro">
+			</div>
+        </div>
+	</section>
+	
+</body>
+<script src="js/script.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+</html>
